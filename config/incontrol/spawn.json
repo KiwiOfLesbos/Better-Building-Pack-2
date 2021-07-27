@@ -1,10 +1,5 @@
 [
     {
-        "hostile": true,
-        "result": "deny"
-    },
-    {
-        "passive": true,
-        "result": "default"
+        
     }
 ]

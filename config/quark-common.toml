@@ -130,7 +130,7 @@
 	"Leaf Carpet" = true
 	Midori = true
 	"Framed Glass" = true
-	"Tallow And Candles" = false
+	"Tallow And Candles" = true
 
 	[building.thatch]
 		#Allowed values: [0,1]
@@ -226,7 +226,7 @@
 
 [management]
 	"Chests In Boats" = true
-	"Inventory Sorting" = false
+	"Inventory Sorting" = true
 	"Shulker Box Right Click" = true
 	"Hotbar Changer" = true
 	"Item Sharing" = true

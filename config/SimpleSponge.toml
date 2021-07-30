@@ -24,7 +24,7 @@
 
 [energized_sponge]
 	#Set to true to enable the Energized Sponge On A Stick
-	enableEnergizedSpongeOnAStick = true
+	enableEnergizedSpongeOnAStick = false
 	#Set the range for an Energized Sponge On A Stick
 	#Range: 1 ~ 64
 	energizedSpongeOnAStickRange = 7

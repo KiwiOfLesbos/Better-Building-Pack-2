@@ -17,22 +17,22 @@
 
 	[initialization.blocks]
 		clock_block = true
-		speaker_block = true
+		speaker_block = false
 		sack = true
 		#WIP
 		laser_block = false
 		bellows = true
 		hanging_sign = true
-		bomb = true
+		bomb = false
 		cage = true
-		bamboo_spikes = true
+		bamboo_spikes = false
 		hourglass = true
 		raked_gravel = true
 		jar = true
 		rope_arrow = true
 		checker_block = true
 		stone_lamp = true
-		cog_block = true
+		cog_block = false
 		crank = true
 		copper_lantern = true
 		pancake = true
@@ -40,7 +40,7 @@
 		iron_gate = true
 		piston_launcher = true
 		netherite_trapdoor = true
-		fodder = true
+		fodder = false
 		globe = true
 		sconce = true
 		candelabra = true
@@ -57,11 +57,11 @@
 		redstone_illuminator = true
 		crimson_lantern = true
 		lock_block = true
-		flax = true
+		flax = false
 		planter = true
 		wind_vane = true
 		item_shelf = true
-		turn_table = true
+		turn_table = false
 		faucet = true
 		gold_trapdoor = true
 		magma_cream_block = true

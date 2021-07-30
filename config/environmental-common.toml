@@ -6,7 +6,7 @@
 		"Giant Tall Grass generation" = true
 		"Wisteria Tree generation in Flower Forests" = true
 		"Hibiscus generation in Jungles" = true
-		"Rice generation in Marshes" = true
+		"Rice generation in Marshes" = false
 		"Delphinium generation in Flower Forests" = true
 
 	[worldgen.biomes]

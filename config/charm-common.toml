@@ -29,7 +29,7 @@
 #Campfires no longer damage mobs.
 "CampfiresNoDamage enabled" = true
 #Candles are made from beeswax and have a lower ambient light than torches.
-"Candles enabled" = true
+"Candles enabled" = false
 #Cave spiders have a chance to drop cobwebs.
 "CaveSpidersDropCobwebs enabled" = true
 #Chickens randomly drop feathers.
@@ -290,7 +290,7 @@
 
 [InventoryTidying]
 	#This module is automatically disabled if Quark is present. Set true to force enable.
-	Override = true
+	Override = false
 
 [Lumberjacks]
 	#Chance of a custom building to spawn. For reference, a vanilla library is 5.

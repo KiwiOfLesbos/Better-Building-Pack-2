@@ -58,7 +58,7 @@
 	[server.dimensionalWarp]
 		#The base xp level cost when travelling between dimensions. Ignores block distance.
 		#Range: > 0
-		dimensionalWarpXpCost = 3
+		dimensionalWarpXpCost = 0
 		#Set to 'ALLOW' to allow dimensional warp in general. Set to 'GLOBAL_ONLY' to restrict dimensional warp to global waystones. Set to 'DENY' to disallow all dimensional warps.
 		#Allowed Values: ALLOW, GLOBAL_ONLY, DENY
 		dimensionalWarp = "ALLOW"
@@ -67,13 +67,13 @@
 	[server.waystoneToWaystone]
 		#The multiplier applied to the base xp cost when teleporting from one waystone to another.
 		#Range: 0.0 ~ Infinity
-		waystoneXpCostMultiplier = 1.0
+		waystoneXpCostMultiplier = 0.0
 		#The multiplier applied to the base xp cost when teleporting from a portstone.
 		#Range: 0.0 ~ Infinity
 		portstoneXpCostMultiplier = 0.0
 		#The multiplier applied to the base xp cost when teleporting from one sharestone to another.
 		#Range: 0.0 ~ Infinity
-		sharestoneXpCostMultiplier = 1.0
+		sharestoneXpCostMultiplier = 0.0
 
 	#These options apply to the global waystones.
 	[server.globalWaystones]
@@ -84,7 +84,7 @@
 		globalWaystoneCooldownMultiplier = 1.0
 		#The multiplier applied to the base xp cost when teleporting to a global waystone through any method.
 		#Range: 0.0 ~ Infinity
-		globalWaystonesXpCostMultiplier = 1.0
+		globalWaystonesXpCostMultiplier = 0.0
 
 	#These options apply to warp plates.
 	[server.warpPlate]

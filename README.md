@@ -1,2 +1,2 @@
 # Peaceful-Pack-WIP
- Modpack focused on peaceful survival and creative building.
+ Modpack focused on peaceful and creative building.

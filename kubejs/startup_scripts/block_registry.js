@@ -1,4 +1,6 @@
 onEvent('block.registry', e => {
+
+    // 1.11 Wool Colors
     e.create('vintage_black_wool').material('wool').hardness(0.8).displayName('Vintage Black Wool')
     e.create('vintage_blue_wool').material('wool').hardness(0.8).displayName('Vintage Blue Wool')
     e.create('vintage_brown_wool').material('wool').hardness(0.8).displayName('Vintage Brown Wool')
@@ -15,4 +17,22 @@ onEvent('block.registry', e => {
     e.create('vintage_red_wool').material('wool').hardness(0.8).displayName('Vintage Red Wool')
     e.create('vintage_white_wool').material('wool').hardness(0.8).displayName('Vintage White Wool')
     e.create('vintage_yellow_wool').material('wool').hardness(0.8).displayName('Vintage Yellow Wool')
+
+    // Elevator Block for Aesthetic
+    e.create('elevator_block_black').material('wool').hardness(0.8).displayName('Black Elevator Block')
+    e.create('elevator_block_blue').material('wool').hardness(0.8).displayName('Blue Elevator Block')
+    e.create('elevator_block_brown').material('wool').hardness(0.8).displayName('Brown Elevator Block')
+    e.create('elevator_block_cyan').material('wool').hardness(0.8).displayName('Cyan Elevator Block')
+    e.create('elevator_block_gray').material('wool').hardness(0.8).displayName('Gray Elevator Block')
+    e.create('elevator_block_green').material('wool').hardness(0.8).displayName('Green Elevator Block')
+    e.create('elevator_block_light_blue').material('wool').hardness(0.8).displayName('Light Blue Elevator Block')
+    e.create('elevator_block_light_gray').material('wool').hardness(0.8).displayName('Light Gray Elevator Block')
+    e.create('elevator_block_lime').material('wool').hardness(0.8).displayName('Lime Elevator Block')
+    e.create('elevator_block_magenta').material('wool').hardness(0.8).displayName('Magenta Elevator Block')
+    e.create('elevator_block_orange').material('wool').hardness(0.8).displayName('Orange Elevator Block')
+    e.create('elevator_block_pink').material('wool').hardness(0.8).displayName('Pink Elevator Block')
+    e.create('elevator_block_purple').material('wool').hardness(0.8).displayName('Purple Elevator Block')
+    e.create('elevator_block_red').material('wool').hardness(0.8).displayName('Red Elevator Block')
+    e.create('elevator_block_white').material('wool').hardness(0.8).displayName('White Elevator Block')
+    e.create('elevator_block_yellow').material('wool').hardness(0.8).displayName('Yellow Elevator Block')
 })

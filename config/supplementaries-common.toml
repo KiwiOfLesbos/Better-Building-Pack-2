@@ -4,7 +4,7 @@
 
 	[blocks.blackboard]
 		#Enable to draw directly on a blackboard using any dye. Gui still only works in black and white
-		colored_blackboard = true
+		colored_blackboard = false
 
 	[blocks.turn_table]
 		#can rotate entities standing on it?

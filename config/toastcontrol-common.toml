@@ -12,7 +12,7 @@
 		#If all vanilla toasts are blocked.
 		global_vanilla = false
 		#If advancement toasts are blocked.
-		advancements = true
+		advancements = false
 		#If system toasts are blocked.
 		system = false
 		#If all non-vanilla toasts are blocked.
@@ -39,9 +39,9 @@
 		#Range: -8192 ~ 8192
 		y_offset = 0
 		#If toasts show on the left of the screen.
-		start_left = false
+		start_left = true
 		#If toasts are transparent.  Overrides translucency.
-		transparent = false
+		transparent = true
 		#The X offset for toasts to be drawn at.
 		#Range: -8192 ~ 8192
 		x_offset = 0

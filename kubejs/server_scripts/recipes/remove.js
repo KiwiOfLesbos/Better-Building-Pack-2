@@ -10,4 +10,12 @@ onEvent('recipes', e => {
     outputRemovals.forEach((removal) => {
         e.remove({ output: removal })
     })
+
+    var inputRemovals = [
+        
+    ]
+
+    inputRemovals.forEach((removal) => {
+        e.remove({ input: removal })
+    })
 })

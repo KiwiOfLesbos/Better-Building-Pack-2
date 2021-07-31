@@ -25,7 +25,7 @@
 		blacklistedNestGenBiomes = []
 		#How many nests, on average, should appear when generated (0 = disabled; 1 = few; 100+ = many)
 		#Range: > 0
-		nestGenRate = 8
+		nestGenRate = 2
 		#A list of dimensions that nests are not able to generate in
 		blacklistedNestGenDimensions = []
 		#Allow eggs to regenerate in nests
@@ -51,7 +51,7 @@
 
 	[entity.booby]
 		#A list of dimensions the booby cannot spawn in
-		blacklistedDimensionsBooby = []
+		blacklistedDimensionsBooby = ["minecraft:the_end", "minecraft:the_nether"]
 		#Booby minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinBooby = 2
@@ -77,7 +77,7 @@
 		#Range: 1 ~ 50
 		spawnSizeMinKiwi = 2
 		#A list of dimensions the kiwi cannot spawn in
-		blacklistedDimensionsKiwi = []
+		blacklistedDimensionsKiwi = ["minecraft:the_end", "minecraft:the_nether"]
 
 	[entity.cassowary]
 		#Cassowary maximum group size
@@ -92,7 +92,7 @@
 		#Range: 1 ~ 50
 		spawnSizeMinCassowary = 2
 		#A list of dimensions the cassowary cannot spawn in
-		blacklistedDimensionsCassowary = []
+		blacklistedDimensionsCassowary = ["minecraft:the_end", "minecraft:the_nether"]
 
 	[entity.ostrich]
 		#Ostrich minimum group size
@@ -104,7 +104,7 @@
 		#Range: 1 ~ 50
 		spawnSizeMaxOstrich = 3
 		#A list of dimensions the ostrich cannot spawn in
-		blacklistedDimensionsOstrich = []
+		blacklistedDimensionsOstrich = ["minecraft:the_end", "minecraft:the_nether"]
 		#Ostrich spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
 		spawnRateOstrich = 7
@@ -114,7 +114,7 @@
 		#Range: 1 ~ 50
 		spawnSizeMinOwl = 2
 		#A list of dimensions the owl cannot spawn in
-		blacklistedDimensionsOwl = []
+		blacklistedDimensionsOwl = ["minecraft:the_end", "minecraft:the_nether"]
 		#Owl maximum group size
 		#Range: 1 ~ 50
 		spawnSizeMaxOwl = 5
@@ -137,7 +137,7 @@
 		#Range: > 0
 		spawnRateBluejay = 12
 		#A list of dimensions the bluejay cannot spawn in
-		blacklistedDimensionsBluejay = []
+		blacklistedDimensionsBluejay = ["minecraft:the_end", "minecraft:the_nether"]
 
 	[entity.gouldianfinch]
 		#Gouldian finch maximum group size
@@ -149,7 +149,7 @@
 		#Range: > 0
 		spawnRateGouldianfinch = 5
 		#A list of dimensions the gouldianfinch cannot spawn in
-		blacklistedDimensionsGouldianfinch = []
+		blacklistedDimensionsGouldianfinch = ["minecraft:the_end", "minecraft:the_nether"]
 		#Gouldian finch minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinGouldianfinch = 2
@@ -158,7 +158,7 @@
 		#A list of biomes the woodpecker cannot spawn in
 		blacklistedBiomesWoodpecker = []
 		#A list of dimensions the woodpecker cannot spawn in
-		blacklistedDimensionsWoodpecker = []
+		blacklistedDimensionsWoodpecker = ["minecraft:the_end", "minecraft:the_nether"]
 		#Woodpecker minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinWoodpecker = 2
@@ -179,7 +179,7 @@
 		#A list of biomes the cockatoo cannot spawn in
 		blacklistedBiomesCockatoo = []
 		#A list of dimensions the cockatoo cannot spawn in
-		blacklistedDimensionsCockatoo = []
+		blacklistedDimensionsCockatoo = ["minecraft:the_end", "minecraft:the_nether"]
 		#Vulture maximum group size
 		#Range: 1 ~ 50
 		spawnSizeMaxCockatoo = 5
@@ -189,7 +189,7 @@
 		#Range: 1 ~ 50
 		spawnSizeMaxRobin = 5
 		#A list of dimensions the robin cannot spawn in
-		blacklistedDimensionsRobin = []
+		blacklistedDimensionsRobin = ["minecraft:the_end", "minecraft:the_nether"]
 		#A list of biomes the robin cannot spawn in
 		blacklistedBiomesRobin = []
 		#Robin minimum group size
@@ -212,7 +212,7 @@
 		#Range: 1 ~ 50
 		spawnSizeMinDuck = 2
 		#A list of dimensions the duck cannot spawn in
-		blacklistedDimensionsDuck = []
+		blacklistedDimensionsDuck = ["minecraft:the_end", "minecraft:the_nether"]
 
 	[entity.heron]
 		#A list of biomes the heron cannot spawn in
@@ -221,7 +221,7 @@
 		#Range: > 0
 		spawnRateHeron = 6
 		#A list of dimensions the heron cannot spawn in
-		blacklistedDimensionsHeron = []
+		blacklistedDimensionsHeron = ["minecraft:the_end", "minecraft:the_nether"]
 		#Heron minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinHeron = 2
@@ -242,14 +242,14 @@
 		#Range: 1 ~ 50
 		spawnSizeMaxBudgerigar = 5
 		#A list of dimensions the budgerigar cannot spawn in
-		blacklistedDimensionsBudgerigar = []
+		blacklistedDimensionsBudgerigar = ["minecraft:the_end", "minecraft:the_nether"]
 
 	[entity.magpie]
 		#Magpie spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
 		spawnRateMagpie = 12
 		#A list of dimensions the magpie cannot spawn in
-		blacklistedDimensionsMagpie = []
+		blacklistedDimensionsMagpie = ["minecraft:the_end", "minecraft:the_nether"]
 		#Magpie maximum group size
 		#Range: 1 ~ 50
 		spawnSizeMaxMagpie = 5
@@ -267,7 +267,7 @@
 		#Range: 1 ~ 50
 		spawnSizeMaxRoadrunner = 2
 		#A list of dimensions the roadrunner cannot spawn in
-		blacklistedDimensionsRoadrunner = []
+		blacklistedDimensionsRoadrunner = ["minecraft:the_end", "minecraft:the_nether"]
 		#Roadrunner spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
 		spawnRateRoadrunner = 10
@@ -284,7 +284,7 @@
 		#Range: 1 ~ 50
 		spawnSizeMinGull = 2
 		#A list of dimensions the gull cannot spawn in
-		blacklistedDimensionsGull = []
+		blacklistedDimensionsGull = ["minecraft:the_end", "minecraft:the_nether"]
 		#Seagull spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
 		spawnRateGull = 12
@@ -299,7 +299,7 @@
 		#Range: 1 ~ 50
 		spawnSizeMaxPigeon = 5
 		#A list of dimensions the pigeon cannot spawn in
-		blacklistedDimensionsPigeon = []
+		blacklistedDimensionsPigeon = ["minecraft:the_end", "minecraft:the_nether"]
 		#Pigeon minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinPigeon = 2
@@ -317,7 +317,7 @@
 		#Range: > 0
 		spawnRateCrane = 6
 		#A list of dimensions the crane cannot spawn in
-		blacklistedDimensionsCrane = []
+		blacklistedDimensionsCrane = ["minecraft:the_end", "minecraft:the_nether"]
 
 	[entity.swan]
 		#Swan spawn rate (0 = disabled; 1 = common; 100+ = rare)
@@ -332,7 +332,7 @@
 		#Range: 1 ~ 50
 		spawnSizeMaxSwan = 5
 		#A list of dimensions the swan cannot spawn in
-		blacklistedDimensionsSwan = []
+		blacklistedDimensionsSwan = ["minecraft:the_end", "minecraft:the_nether"]
 
 	[entity.macaw]
 		#Parrot maximum group size
@@ -347,7 +347,7 @@
 		#Range: > 0
 		spawnRateMacaw = 6
 		#A list of biomes the macaw cannot spawn in
-		blacklistedBiomesMacaw = []
+		blacklistedBiomesMacaw = ["minecraft:the_end", "minecraft:the_nether"]
 
 	[entity.pelican]
 		#A list of biomes the pelican cannot spawn in
@@ -362,11 +362,11 @@
 		#Range: 1 ~ 50
 		spawnSizeMaxPelican = 5
 		#A list of dimensions the pelican cannot spawn in
-		blacklistedDimensionsPelican = []
+		blacklistedDimensionsPelican = ["minecraft:the_end", "minecraft:the_nether"]
 
 	[entity.cardinal]
 		#A list of dimensions the cardinal cannot spawn in
-		blacklistedDimensionsCardinal = []
+		blacklistedDimensionsCardinal = ["minecraft:the_end", "minecraft:the_nether"]
 		#Cardinal minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinCardinal = 2
@@ -387,7 +387,7 @@
 		#Range: 1 ~ 50
 		spawnSizeMaxKingfisher = 5
 		#A list of dimensions the kingfisher cannot spawn in
-		blacklistedDimensionsKingfisher = []
+		blacklistedDimensionsKingfisher = ["minecraft:the_end", "minecraft:the_nether"]
 		#Kingfisher spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
 		spawnRateKingfisher = 10
@@ -405,7 +405,7 @@
 		#Range: 1 ~ 50
 		spawnSizeMinFlamingo = 2
 		#A list of dimensions the flamingo cannot spawn in
-		blacklistedDimensionsFlamingo = []
+		blacklistedDimensionsFlamingo = ["minecraft:the_end", "minecraft:the_nether"]
 		#A list of biomes the flamingo cannot spawn in
 		blacklistedBiomesFlamingo = []
 
@@ -414,7 +414,7 @@
 		#Range: 1 ~ 50
 		spawnSizeMinLyrebird = 2
 		#A list of dimensions the lyrebird cannot spawn in
-		blacklistedDimensionsLyrebird = []
+		blacklistedDimensionsLyrebird = ["minecraft:the_end", "minecraft:the_nether"]
 		#A list of biomes the lyrebird cannot spawn in
 		blacklistedBiomesLyrebird = []
 		#Lyrebird spawn rate (0 = disabled; 1 = common; 100+ = rare)
@@ -437,14 +437,14 @@
 		#Range: 1 ~ 50
 		spawnSizeMaxPeafowl = 5
 		#A list of dimensions the peafowl cannot spawn in
-		blacklistedDimensionsPeafowl = []
+		blacklistedDimensionsPeafowl = ["minecraft:the_end", "minecraft:the_nether"]
 
 	[entity.kookaburra]
 		#Kookaburra spawn rate (0 = disabled; 1 = common; 100+ = rare)
 		#Range: > 0
 		spawnRateKookaburra = 6
 		#A list of dimensions the kookaburra cannot spawn in
-		blacklistedDimensionsKookaburra = []
+		blacklistedDimensionsKookaburra = ["minecraft:the_end", "minecraft:the_nether"]
 		#Kookaburra maximum group size
 		#Range: 1 ~ 50
 		spawnSizeMaxKookaburra = 5
@@ -464,7 +464,7 @@
 		#Range: 1 ~ 50
 		spawnSizeMaxToucan = 5
 		#A list of dimensions the toucan cannot spawn in
-		blacklistedDimensionsToucan = []
+		blacklistedDimensionsToucan = ["minecraft:the_end", "minecraft:the_nether"]
 		#Toucan minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinToucan = 2
@@ -479,7 +479,7 @@
 		#Range: 1 ~ 50
 		spawnSizeMaxHummingbird = 5
 		#A list of dimensions the hummingbird cannot spawn in
-		blacklistedDimensionsHummingbird = []
+		blacklistedDimensionsHummingbird = ["minecraft:the_end", "minecraft:the_nether"]
 		#Hummingbird minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinHummingbird = 2
@@ -492,7 +492,7 @@
 		#Range: > 0
 		spawnRatePenguin = 6
 		#A list of dimensions the penguin cannot spawn in
-		blacklistedDimensionsPenguin = []
+		blacklistedDimensionsPenguin = ["minecraft:the_end", "minecraft:the_nether"]
 		#Penguin minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinPenguin = 2

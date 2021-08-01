@@ -1,0 +1,15 @@
+{
+    "name": "Truly Clear Blocks",
+    "icon": "you_cant_see_me:transparent_block",
+    "category": "patchouli:features",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The $(5)You Can't See Me!$(reset) mod has a host of 'Truly Clear' blocks that are invisible when placed in the world."
+        },
+        {
+            "type":"patchouli:text",
+            "text": "Truly Clear Blocks:$(br)$(li)Glass$(li)Glass Pane$(li)Stairs$(li)Slabs$(li)Doors$(li)Trapdoors$(li)Fence$(li)Fence Gate$(li)Walls"
+        }
+    ]    
+}

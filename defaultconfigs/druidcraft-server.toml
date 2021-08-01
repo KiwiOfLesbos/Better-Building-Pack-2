@@ -58,7 +58,7 @@
 	#Range: 1 ~ 5
 	dreadfish_min_group_size = 1
 	#List of biome types from the biome dictionary that lunar moths cannot spawn in. Separate with commas.
-	lunar_moth_exclusions = "DENSE"
+	lunar_moth_exclusions = "DENSE, NETHER, END, OCEAN"
 	#Allow beetles to spawn?
 	beetle_spawn = false
 	#Maximum size of the group when spawned.

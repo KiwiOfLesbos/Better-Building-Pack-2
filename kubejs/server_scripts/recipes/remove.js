@@ -49,7 +49,15 @@ onEvent('recipes', e => {
         'buildersaddition:sandstone_vertical_slab',
         'buildersaddition:blackstone_vertical_slab',
         'buildersaddition:polished_blackstone_vertical_slab',
-        'buildersaddition:polished_blackstone_bricks_vertical_slab'
+        'buildersaddition:polished_blackstone_bricks_vertical_slab',
+        'buildersaddition:large_candle',
+        'buildersaddition:large_soul_candle',
+        'hole_filler_mod:throwable_hole_filler',
+        'hole_filler_mod:throwable_hole_filler_balanced',
+        'hole_filler_mod:throwable_hole_filler_smart',
+        'hole_filler_mod:throwable_hole_filler_water',
+        'hole_filler_mod:throwable_hole_filler_light',
+        'hole_filler_mod:throwable_hole_filler_dark',
     ]
 
     outputRemovals.forEach((removal) => {

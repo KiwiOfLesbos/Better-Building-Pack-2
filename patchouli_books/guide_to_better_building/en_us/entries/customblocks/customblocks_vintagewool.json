@@ -1,0 +1,17 @@
+{
+    "name": "Vintage Wool",
+    "icon": "kubejs:vintage_light_blue_wool",
+    "category": "patchouli:customblocks",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:vintage_light_blue_wool",
+            "title": "Vintage Wool",
+            "text": "Adds access to the 1.11 wool colors. Dubbed 'Vintage Wool'."
+        },
+        {
+            "type": "patchouli:empty",
+            "draw_filler": false
+        }
+    ]
+}

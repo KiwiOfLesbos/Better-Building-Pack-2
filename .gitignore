@@ -1,5 +1,8 @@
 
 kubejs/exported/*
 docs*
-kubejs/README.txt
 *.bak
+*.code-workspace
+
+todo.txt
+kubejs/README.txt

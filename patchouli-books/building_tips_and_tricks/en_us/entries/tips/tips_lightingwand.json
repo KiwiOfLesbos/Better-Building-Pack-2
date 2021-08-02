@@ -1,0 +1,16 @@
+{
+    "name": "Lighting Wand",
+    "icon": "lightingwand:wand",
+    "category": "patchouli:tips",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "lightingwand:wand",
+            "text": "Allows the placement of invisible light sources! Super useful to light up build without having to place down ugly torches. Holding the wand in your hand will show the light sources so they can be easily removed!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "lightingwand:wand"
+        }
+    ]
+}

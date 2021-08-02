@@ -1,0 +1,16 @@
+{
+    "name": "Angel Block",
+    "icon": "angelblock:angel_block",
+    "category": "patchouli:tips",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "angelblock:angel_block",
+            "text": "A block that can be placed mid-air! No need to pillar up to make that sky whale, just hold the Angel Block in your hand and it will show a nifty green outline of where it can be placed."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "angelblock:angel_block"
+        }
+    ]
+}

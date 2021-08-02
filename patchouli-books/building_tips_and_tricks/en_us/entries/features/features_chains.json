@@ -1,0 +1,15 @@
+{
+    "name": "Connectable Chains",
+    "icon": "minecraft:chain",
+    "category": "patchouli:features",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "You can now connect two fence posts together with a $(5)Chain$(reset).$(br2)Just right click a $(5)Chain$(reset) on one fence and then right click it on another. There's a 7 block limit on $(5)Chain$(reset) placing."
+        },
+        {
+            "type":"patchouli:empty",
+            "draw_filler": false
+        }
+    ]    
+}

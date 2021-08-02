@@ -1,0 +1,15 @@
+{
+    "name": "Block Layering",
+    "icon": "blocklayering:layer_gravel",
+    "category": "patchouli:features",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "With the $(5)Block Layering$(reset) mod, some blocks are able to be layered much like snow."
+        },
+        {
+            "type":"patchouli:text",
+            "text": "Layerable Blocks:$(br)$(li)Dirt$(li)Coarse Dirt$(li)Grass$(li)Paths$(li)Podzol$(li)Mycelium$(li)Gravel$(li)Sand$(li)Red Sand$(li)Clay$(li)Hay$(li)Concrete Powders"
+        }
+    ]    
+}

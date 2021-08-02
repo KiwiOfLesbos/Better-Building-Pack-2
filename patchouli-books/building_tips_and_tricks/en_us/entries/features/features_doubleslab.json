@@ -1,0 +1,15 @@
+{
+    "name": "Double Slabs & Torches",
+    "icon": "minecraft:oak_slab",
+    "category": "patchouli:features",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This pack features both the $(5)Double Slabs$(reset) mod and the $(5)Torch Slabs$(reset) mod.$(br2)$(5)Double Slabs$(reset) lets you place two different slabs together as one block, while also letting you place any slab vertically. There's a configurable $(5)$(l:features/features_keybinds#slabs)control$(/l)$(reset) that lets you place vertical slabs all the time."
+        },
+        {
+            "type":"patchouli:text",
+            "text": "The $(5)Torch Slabs$(reset) mod does what it says on the box, lets you place torches on top of slabs. Easy, right?"
+        }
+    ]    
+}

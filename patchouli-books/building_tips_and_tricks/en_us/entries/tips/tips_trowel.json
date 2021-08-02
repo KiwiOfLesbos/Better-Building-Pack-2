@@ -1,0 +1,16 @@
+{
+    "name": "Trowel",
+    "icon": "quark:trowel",
+    "category": "patchouli:tips",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "quark:trowel",
+            "text": "When using this item, blocks on the hotbar will be randomly chosen and placed. Useful for making natural looking paths!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "quark:tools/crafting/trowel"
+        }
+    ]
+}
